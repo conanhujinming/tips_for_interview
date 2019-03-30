@@ -15,7 +15,7 @@ On the other hand, there are exactly some students suffering from the lack of in
 
 During the interview process, the interviewer often gives several algorithm problems, requiring the interviewee to provide ideas or write down the code. In most companies' interviews, the performance of this part is very important, and for some global companies, the performance of this part is decisive (even the only important one). For the preparation of this part, the first to recommend is websites like [LeetCode](https://leetcode.com/problemset/algorithms/). Here are some points tha may be critical in an interview.
 
-## A Very Simple Example
+### A Very Simple Example
 
 Here is a very simple question. The following tips will be illustrated with this question. The problem is to calculate the height of a binary tree. A simple implementation is as follows:
 
@@ -28,7 +28,7 @@ int getHeightOfBinaryTree(TreeNode* root) {
 }
 ```
 
-## Ask Clarification Questions
+### Ask Clarification Questions
 
 It is extremely important to ask clarification questions. If you don't understand the problem clearly, you should immediately ask some questions that will help you understand. For example: What is the range of data? What is the size range of this array? Can you give an example? If the input is this, what the output should be, and so on. One of the questions that can be asked in this simple question is what is the height of the binary tree (as far as I know, the definition of height is not the same for all textbooks)?
 
@@ -37,17 +37,17 @@ tremendous practical benefits. The importance of the latter is that the communic
 
 If there is no clarification question, what may happen? In the worst case, the interviewer may spend a lot of time solving a completely wrong question, and he or she will fail naturally. Or more luckily, he or she meets a nice interviewer and gives some tips to tell the interviewer that he or she is in the wrong direction, but this will not only waste a lot of precious interview time, but also reduce the interviewer's evaluation of the interviewer. When I was in a interview with Google, the interviewer gave me a question that sounding difficult and needed to be solved using dynamic programming. The interview gave me such a hard problem just at the beginning of the interview, which was too unfriendly for me! So I asked, "What is the rangeof the data?" The interviewer told me that the range of the array is an integer from 0-10. In this case, the problem becomes a greedy problem that can be solved with only 6 lines of code. If I didn't ask this question, the difficulty of the interview obviously increased greatly.
 
-## Confirm The Function Signature with The Tnterviewer
+### Confirm The Function Signature with The Tnterviewer
 
 After clarifing the problem, I think it is reasonable to confirm the function signature with the interviewer, that is, what are the inputs , what are the outputs, and so on. The cost of this step is very low, and it is very important. First, this tells the interviewer that you value the design of the function signature, which is valuable in practical applications. Second, this can further help you confirm that you understand the meaning of the question. A reasonable function signature might be similar to the function signature in the LeetCode problems. The signature in the above code is a reasonable signature.
 
-## Confirm the Solving Idea with The Interviewer
+### Confirm the Solving Idea with The Interviewer
 
 After you have a idea, be sure to check with the interviewer if this idea is reasonable. You can explain to the interviewer why your ideas are reasonable and the interviewer may discuss some of the key points with you. There are several advantages to doing this. First, in the process of presentation, your thinking will become clearer (the interviewer acts as a little yellow duck). Second, it also shows that you value communication. Third, and perhaps most importantly, if your thinking is not correct, nice interviewers will prompt you to even point out the error, so that you will at least not waste too much time on a wrong idea. **Don't write the code directly after getting an idea without confirming with the interviewer.** In particular, if your thinking has any assumptions about the data, or if you need to **modify the input data**, it is reasonable to confirm with the interviewer.
 
 If you think that this problem is similar with a classic problem, or you can use a classic algorithm to solve it; then point it out. For example, calculating the height of a binary tree is actually a post-order traversal. You can point it out directly.
 
-## Confirm Edge/Corner Case
+### Confirm Edge/Corner Case
 
 Be sure to think about the edge cases of the code before you start writing code or when you are writing code. Some most typical edge cases can be: Will the data overflow? Is the pointer likely to be NULL? Is the linked list acyclic? Will the size of the array be zero? Will the inputs be completely incompatible with the requirements of the question? In the simple example, the corner case is that the height should be 0 when the node pointer is a null pointer. When you are aware of the existence of corner cases, you can ask the interviewer how to deal with it, or tell the interviewer directly what handling you think is reasonable. The handling of edge cases is also extremely important when developing software. Neglecting a edge case can have a great impact on program robustness, which may directly cause huge economic losses or even casualties.
 
