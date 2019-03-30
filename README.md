@@ -9,7 +9,7 @@ I have now interviewed with several first-tier companies from China (such as Ali
 
 All interview skills and tips are based on a solid foundation: the interviewer is already qualified enough. In 2018, I worked as an intern at a startup company, and I interviewed several candidates during the autumn. As far as I am concerned, if the interviewer is not qualified enough, it is not quite meaningful to learn these tips or tricks: an experienced interviewer can easily ask an interview some follow-up questions to check it. Interview skills and experience are meaningful, but **learning these skills can only help a qualified interviewer, instead of a unqualified one, to exert their strength to a greater extent**. **There is no shortcut to learning: nothing replaces hard work.** I hope that every interviewer can understand this truth as soon as possible.
 
-On the other hand, there are exactly some students suffering from the lack of interview skills: they are quite qualified, but for some reasons they do not perform well in the interview. This article is intended to summarize some of the general interview skills and tips for such students.
+On the other hand, there are exactly some students suffering from the lack of interview skills: they are quite qualified, but for some reasons they do not perform well in the interview. In my opinion, the key to the interview is that the interviewer should realize that this is not only a test, but also a conversation that is full of communication and communication. This article is intended to summarize some of the general interview skills and tips for such students.
 
 ## Programming Part
 
