@@ -37,11 +37,11 @@ tremendous practical benefits. The importance of the latter is that the communic
 
 If there is no clarification question, what may happen? In the worst case, the interviewer may spend a lot of time solving a completely wrong question, and he or she will fail naturally. Or more luckily, he or she meets a nice interviewer and gives some tips to tell the interviewer that he or she is in the wrong direction, but this will not only waste a lot of precious interview time, but also reduce the interviewer's evaluation of the interviewer. When I was in a interview with Google, the interviewer gave me a question that sounding difficult and needed to be solved using dynamic programming. The interview gave me such a hard problem just at the beginning of the interview, which was too unfriendly for me! So I asked, "What is the rangeof the data?" The interviewer told me that the range of the array is an integer from 0-10. In this case, the problem becomes a greedy problem that can be solved with only 6 lines of code. If I didn't ask this question, the difficulty of the interview obviously increased greatly.
 
-### Confirm The Function Signature with The Tnterviewer
+### Confirm the Function Signature with the Tnterviewer
 
 After clarifing the problem, I think it is reasonable to confirm the function signature with the interviewer, that is, what are the inputs , what are the outputs, and so on. The cost of this step is very low, and it is very important. First, this tells the interviewer that you value the design of the function signature, which is valuable in practical applications. Second, this can further help you confirm that you understand the meaning of the question. A reasonable function signature might be similar to the function signature in the LeetCode problems. The signature in the above code is a reasonable signature.
 
-### Confirm the Solving Idea with The Interviewer
+### Confirm the Solving Idea with the Interviewer
 
 After you have a idea, be sure to check with the interviewer if this idea is reasonable. You can explain to the interviewer why your ideas are reasonable and the interviewer may discuss some of the key points with you. There are several advantages to doing this. First, in the process of presentation, your thinking will become clearer (the interviewer acts as a little yellow duck). Second, it also shows that you value communication. Third, and perhaps most importantly, if your thinking is not correct, nice interviewers will prompt you to even point out the error, so that you will at least not waste too much time on a wrong idea. **Don't write the code directly after getting an idea without confirming with the interviewer.** In particular, if your thinking has any assumptions about the data, or if you need to **modify the input data**, it is reasonable to confirm with the interviewer.
 
@@ -55,15 +55,15 @@ Be sure to think about the edge cases of the code before you start writing code 
 
 When writing code, try to use readable function names and variable names. For example, to calculate the depth of a binary tree, the function signature can be `int getHeightOfBinaryTree(TreeNode* root) `and the input is called `root` (not `node`). The variable name of the height of the left subtree can be called `left_height`. And so on. The main purpose of this operation is to let the interviewer see your good coding habits.
 
-### Keep Communicating with The Interviewer When Writing Code
+### Keep Communicating with the Interviewer When Writing Code
 
 When implementing the algorithm, it is necessary to avoid writing without communicating with the interviewer. In fact, when writing some key codes, you can tell the interviewer which part you are implementing. In the previous example, you can tell the interviewer that `int left_height = getHeightOfBinaryTree(root->left) `is calculating the height of the left subtree (good function names and variable names actually make this line self-explanatory) `int root_height= max(left_height, right_height) + 1` calculates the height of the current root node based on the heights of the left and right subtrees.
 
 Of course, in this simple example, communication may not seem so important, but it can be very important when dealing with much more complex problems. For example, the follow-up of the example is to implement the same function without recursion, or further,  use a constant space to achieve the same function. In such a problem (the code can be as long as dozens of lines), communication is crucial. You need to communicate with the interviewer to ensure that he/she understands your thoughts and status, and you also need to communicate to clear your thoughts. Such kind of communication when writing code is also a very important ability after you join the company.
 
-### Active Test After Writing The Code
+### Active Test After Writing the Code
 
-### Give The Complexity of The Algorithm
+### Give the Complexity of the Algorithm
 
 ### Discuss the Trade-Off
 
