@@ -21,7 +21,7 @@ Here is a very simple question. The following tips will be illustrated with this
 
 ```
 int getHeightOfBinaryTree(TreeNode* root) {
-	if (!root) return 0;
+    if (!root) return 0;
     int left_height = getHeightOfBinaryTree(root->left);
     int right_height = getHeightOfBinaryTree(root->right);
     return max(left_height, right_height) + 1;
