@@ -28,6 +28,10 @@ int getHeightOfBinaryTree(TreeNode* root) {
 }
 ```
 
+### Practice Whiteboard Programming
+
+The programming part of the interview is often whiteboard programming: the interviewer either asks the interviewee to write code in a place such as Google Doc, or simply asks to write code on a white paper. In this case, the experience of coding is completely different from the experience of using IDE in daily life. Take Google Doc as an example. Many people (such as me) can hardly write code that can be compiled at first, let alone write bug-free code. On the other hand, without the IDE, the difficulty of debugging will be greatly increased. The difficulty of writing code on white paper goes even further. The method of adapting to whiteboard programming is also very simple, and only a sufficient amount of practice is required.
+
 ### Ask Clarification Questions
 
 It is extremely important to ask clarification questions. If you don't understand the problem clearly, you should immediately ask some questions that will help you understand. For example: What is the range of data? What is the size range of this array? Can you give an example? If the input is this, what the output should be, and so on. One of the questions that can be asked in this simple question is what is the height of the binary tree (as far as I know, the definition of height is not the same for all textbooks)?
