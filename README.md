@@ -1,7 +1,7 @@
 # tips_for_interview
-Some of my thoughts about interview. 我的一些面试心得
+Some of my thoughts about interview. 我的一些面试心得。中文版请点[这里](https://github.com/conanhujinming/tips_for_interview/blob/master/README-zh_CN.md) 。
 
-I had some interviews this year in China for summer intern. This is just a collection of my thoughts about interview. 中文版请点[这里](https://github.com/conanhujinming/tips_for_interview/blob/master/README-zh_CN.md) 。
+I had some interviews this year in China for summer intern. This is just a collection of my thoughts about interview. 
 
 I have now interviewed with several first-tier companies from China (such as Alibaba) and several global companies (such as Google), yet without any rejection letter. After a period of interview preparation and several interview experiences, I summed up some personal experiences for reference only.
 
@@ -9,7 +9,7 @@ I have now interviewed with several first-tier companies from China (such as Ali
 
 All interview skills and tips are based on a solid foundation: the interviewer is already qualified enough. In 2018, I worked as an intern at a startup company, and I interviewed several candidates during the autumn. As far as I am concerned, if the interviewer is not qualified enough, it is not quite meaningful to learn these tips or tricks: an experienced interviewer can easily ask an interview some follow-up questions to check it. Interview skills and experience are meaningful, but **learning these skills can only help a qualified interviewer, instead of a unqualified one, to exert their strength to a greater extent**. **There is no shortcut to learning: nothing replaces hard work.** I hope that every interviewer can understand this truth as soon as possible.
 
-On the other hand, there are exactly some students suffering from the lack of interview skills: they are quite qualified, but for some reasons they do not perform well in the interview. In my opinion, the key to the interview is that the interviewer should realize that this is not only a test, but also a conversation that is full of communication and communication. This article is intended to summarize some of the general interview skills and tips for such students.
+On the other hand, there are exactly some students suffering from the lack of interview skills: they are quite qualified, but for some reasons they do not perform well in the interview. In my opinion, the key to the interview is that the interviewer should realize that this is not only a test, **but also a conversation that is full of communication and communication.** This article is intended to summarize some of the general interview skills and tips for such students.
 
 ## Programming Part
 
@@ -75,5 +75,30 @@ When I was in a interview for a global company, the habit of actively testing ga
 
 ### Discuss the Trade-Off
 
+## Computer Basic Knowledge Part
+
+### Capture the Point of Questions
+
+### Talk about Your Own Insight
+
+### Explain with Your Own Experience
+
+### Neither Talk Too Much Nor Too Litter 
 
 
+
+## Project Part
+
+### Briefly Introduce the Project Background
+
+### Introducing the Project's Approach
+
+### Point Out the Difficulties And Solutions in the Project
+
+
+
+## Paper Part
+
+### Briefly Introduce the Background of Your Research
+
+### Introduce Your Paper Like Giving a Talk
