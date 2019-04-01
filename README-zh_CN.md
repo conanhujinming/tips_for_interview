@@ -97,8 +97,6 @@ int getHeightOfBinaryTree(TreeNode* root) {
 
 
 
-
-
 ## 论文部分心得
 
 ### 简要介绍自己research的背景
