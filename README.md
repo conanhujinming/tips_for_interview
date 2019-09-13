@@ -1,15 +1,17 @@
 # tips_for_interview
 Some of my thoughts about interview. 我的一些面试心得。中文版请点[这里](https://github.com/conanhujinming/tips_for_interview/blob/master/README-zh_CN.md) 。
 
-I had some interviews this year in China for summer intern. This is just a collection of my thoughts about interview. 
+I had some interviews this year in China for summer intern and full time job. This is just a collection of my thoughts about interview. 
 
-I have now interviewed with several first-tier companies from China (such as Alibaba) and several global companies (such as Google), yet without any rejection letter. After a period of interview preparation and several interview experiences, I summed up some personal experiences for reference only.
+I have now interviewed with several first-tier companies from China (such as Alibaba) and several global companies (such as Google), with only one rejection letter. After a period of interview preparation and several interview experiences, I summed up some personal experiences for reference only.
 
 ## Claim
 
 All interview skills and tips are based on a solid foundation: the interviewer is already qualified enough. In 2018, I worked as an intern at a startup company, and I interviewed several candidates during the autumn. As far as I am concerned, if the interviewer is not qualified enough, it is not quite meaningful to learn these tips or tricks: an experienced interviewer can easily ask an interview some follow-up questions to check it. Interview skills and experience are meaningful, but **learning these skills can only help a qualified interviewer, instead of a unqualified one, to exert their strength to a greater extent**. **There is no shortcut to learning: nothing replaces hard work.** I hope that every interviewer can understand this truth as soon as possible.
 
-On the other hand, there are exactly some students suffering from the lack of interview skills: they are quite qualified, but for some reasons they do not perform well in the interview. In my opinion, the key to the interview is that the interviewer should realize that this is not only a test, **but also a conversation that is full of communication and communication.** This article is intended to summarize some of the general interview skills and tips for such students.
+On the other hand, there are exactly some students suffering from the lack of interview skills: they are quite qualified, but for some reasons they do not perform well in the interview.  In fact, different companies have different interview cultures. For example, Google's interviewer hopes that the interviewer can become a colleague who is willing to work together. The interviewer from ByteDance may hope that the interviewer has a solid foundation in math, algorithm, coding, and engineering. Such a person is more likely to become a "person who can solve problems." However, as an interview candidate, we don't really need to address the culture of each company. There should be some common points in the interview. In my opinion, the key to the interview is that the interviewer should realize that this is not only a test, **but also a conversation that is full of communication and communication.**  I hope that every interviewer can understand this truth as soon as possible.
+
+In addition to the two most important points mentioned above, there are some other relatively common interview skills and tips for interviews. This article is intended to summarize some of the general interview skills and tips for such students.
 
 ## Programming Part
 
