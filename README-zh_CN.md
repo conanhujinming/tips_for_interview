@@ -68,7 +68,13 @@
     - [腾讯数据库内核](#%e8%85%be%e8%ae%af%e6%95%b0%e6%8d%ae%e5%ba%93%e5%86%85%e6%a0%b8)
     - [Google](#google-1)
     - [Offer选择](#offer%e9%80%89%e6%8b%a9)
-  - [一些学习资料推荐：To Be Continued](#%e4%b8%80%e4%ba%9b%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%96%99%e6%8e%a8%e8%8d%90to-be-continued)
+  - [一些学习资料推荐](#%e4%b8%80%e4%ba%9b%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%96%99%e6%8e%a8%e8%8d%90)
+    - [数学](#%e6%95%b0%e5%ad%a6)
+    - [CS导论](#cs%e5%af%bc%e8%ae%ba)
+    - [数据结构与算法](#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e4%b8%8e%e7%ae%97%e6%b3%95)
+    - [操作系统](#%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f)
+    - [机器学习](#%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0)
+    - [深度学习](#%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0)
   - [尾声](#%e5%b0%be%e5%a3%b0)
 # 面试心得
 
@@ -572,11 +578,77 @@ Google的转正面试在中秋节结束后的第一天。很遗憾我在去上�
 
 确认选择Optiver之后，我的秋招到此算是结束了。虽然我后面还面了几家公司，但主要也是奔着与面试官交流去的。
 
-## 一些学习资料推荐：To Be Continued
+## 一些学习资料推荐
 
-这里简单推荐一些我看过的适合自学的学习资料，以供参考。
+这里简单推荐一些我看过的（有些看完了，有些看了部分）适合自学的学习资料，以供参考。因为我太懒了，所以覆盖的内容不全面，自学CS的同学也可以参考[MIT的课表](http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/)看看要学哪些内容。再次强调，**上课不做题，等于白上课。**
 
+### 数学
 
+[MIT 18.01](https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/)，[MIT 18.02](https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/)：微积分。
+
+[MIT 18.06](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)：线性代数
+
+[Harvard Stat110](https://projects.iq.harvard.edu/stat110/home)：概率论。印象深刻的有一句话，"Random variable is a function"。
+
+[MIT 6.042J](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/)：Mathematics for Computer Science. 在我看来最有趣的数学课，如果TA能少上几节课就好了:(
+
+### CS导论
+
+[MIT 6.001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)：Introduction to Computer Science and Programming in Python
+
+### 数据结构与算法
+
+[MIT 6.006](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)：Introduction to Algorithms，教材是CLRS。
+
+[MIT 6.046](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)：Design and Analysis of Algorithms. 进阶版，但其实前面那门课就已经内容不少了。
+
+### 操作系统
+
+[CMU 15-213](https://www.cs.cmu.edu/~213/)：教材是CSAPP。
+
+[MIT 6.824](https://pdos.csail.mit.edu/6.824/)：分布式系统。不久前终于感人地放出视频了。
+
+[MIT 6.828](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)：其实还没看，小伙伴都说好。
+
+[MIT 6.004](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/)：Computer Structure。偏硬件，老师讲得很好。
+
+Modern Operating System
+
+### 机器学习
+
+浙大的同学来蹭蔡登老师的课>_<
+
+[Coursera Andrew NG的Machine Learning]([https://www.coursera.org/courses?query=machine%20learning%20andrew%20ng](https://www.coursera.org/courses?query=machine learning andrew ng))：机器学习之路从这里开始。
+
+[Stanford CS229](http://cs229.stanford.edu/)：Machine Learning. Youtube上有视频。
+
+[CMU 15-701](http://www.cs.cmu.edu/~mgormley/courses/10701-f16/schedule.html )：Intro to Machine Learning. 就找到这么一年有视频的。
+
+[Coursera PGM](https://www.coursera.org/specializations/probabilistic-graphical-models)：知名课程。
+
+[CMU 15-708](http://www.cs.cmu.edu/~epxing/Class/10708-19/lectures/)：Probabilistic Graphical Model 我只看过两个Lecture。
+
+下面有几本书，不过还是推荐和课程一起看。
+
+Pattern Classification (PC)：比较老的书了，但是内容还是很有意义。
+
+Elements of Statistical Learning：insight很多。
+
+Pattern Recognition and Machine Learning (PRML)
+
+Machine Learning: a Probabilistic Approach (MLAPP)
+
+Information Theory, Inference, and Learning：可惜David J. C. MacKay英年早逝。
+
+### 深度学习
+
+[Stanford CS231n](http://cs231n.github.io/)：Deep learning for CV.  推荐深度学习从这里开始
+
+[Stanford CS224n](http://web.stanford.edu/class/cs224n/)：Deep learning for NLP.
+
+[Berkeley CS285](http://rll.berkeley.edu/deeprlcourse/)：Deep RL. 我只挑着看了几个Lecture，小伙伴说好。
+
+[Deep Learning Book](https://www.deeplearningbook.org/)：花书。
 
 ## 尾声
 
