@@ -622,7 +622,7 @@ Modern Operating System
 
 浙大的同学来蹭蔡登老师的课>_<
 
-[Coursera Andrew NG的Machine Learning]([https://www.coursera.org/courses?query=machine%20learning%20andrew%20ng](https://www.coursera.org/courses?query=machine learning andrew ng))：机器学习之路从这里开始。
+[Coursera Andrew NG的Machine Learning](https://www.coursera.org/learn/machine-learning)：机器学习之路从这里开始。
 
 [Stanford CS229](http://cs229.stanford.edu/)：Machine Learning. Youtube上有视频。
 
