@@ -3,6 +3,8 @@
 
 全文接近4万字，可以根据目录各取所需。
 
+
+- [写在20年初的校招面试心得与自学CS经验及找工作分享](#%e5%86%99%e5%9c%a820%e5%b9%b4%e5%88%9d%e7%9a%84%e6%a0%a1%e6%8b%9b%e9%9d%a2%e8%af%95%e5%bf%83%e5%be%97%e4%b8%8e%e8%87%aa%e5%ad%a6cs%e7%bb%8f%e9%aa%8c%e5%8f%8a%e6%89%be%e5%b7%a5%e4%bd%9c%e5%88%86%e4%ba%ab)
 - [面试心得](#%e9%9d%a2%e8%af%95%e5%bf%83%e5%be%97)
   - [声明](#%e5%a3%b0%e6%98%8e)
   - [编程部分心得](#%e7%bc%96%e7%a8%8b%e9%83%a8%e5%88%86%e5%bf%83%e5%be%97)
@@ -77,6 +79,7 @@
     - [CS导论](#cs%e5%af%bc%e8%ae%ba)
     - [数据结构与算法](#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e4%b8%8e%e7%ae%97%e6%b3%95)
     - [操作系统](#%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f)
+    - [编程语言](#%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80)
     - [机器学习](#%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0)
     - [深度学习](#%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0)
   - [尾声](#%e5%b0%be%e5%a3%b0)
@@ -617,6 +620,14 @@ Google的转正面试在中秋节结束后的第一天。很遗憾我在去上�
 [MIT 6.004](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/)：Computer Structure。偏硬件，老师讲得很好。
 
 Modern Operating System
+
+### 编程语言
+
+[Stanford CS41](https://stanfordpython.com/): Python Language Programming. 可惜没有视频，作业挺有意思的。其实我觉得学语言比较好的一种方式就是学了语法之后做一些练手的项目、作业，这样会掌握得比较快。
+
+[Stanford CS106L](http://web.stanford.edu/class/cs106l/): C++ Language Programming. 前文也介绍过了，我觉得那本Full Course Reader写得真的很好，推荐一下~
+
+还有一些领域内很知名的书，这里就不再专门推荐啦，这些课程里也会有介绍/推荐。这里再啰嗦一句，对大多数人来说，往往只需要学会某种编程语言中20%不到的常用特性，而这20%的常用特性往往占了实际使用这门编程语言中的90%。所以我不是很建议一开始弄本厚厚大大的书看，那样又吃力又缺少反馈，而且可能会花大量精力在自己根本用不到的地方。我其他的编程语言似乎都是用官方tutorial入门的，这里也就不推荐啦。
 
 ### 机器学习
 
