@@ -619,6 +619,8 @@ Google的转正面试在中秋节结束后的第一天。很遗憾我在去上�
 
 [MIT 6.046](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)：Design and Analysis of Algorithms. 进阶版，但其实前面那门课就已经内容不少了。
 
+算法笔记：胡凡著。一位浙大学长写的使用c++实现基础数据结构与算法的书，写得挺清晰的，里面的代码也很实用。我现在面试之前还会翻一下这本书上一些算法的实现。
+
 ### 操作系统
 
 [CMU 15-213](https://www.cs.cmu.edu/~213/)：教材是CSAPP。
