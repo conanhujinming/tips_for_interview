@@ -3,88 +3,91 @@
 
 全文接近4万字，可以根据目录各取所需。
 
-
-
-- [面试心得](#%e9%9d%a2%e8%af%95%e5%bf%83%e5%be%97)
-  - [声明](#%e5%a3%b0%e6%98%8e)
-  - [编程部分心得](#%e7%bc%96%e7%a8%8b%e9%83%a8%e5%88%86%e5%bf%83%e5%be%97)
-    - [一个非常简单的例子](#%e4%b8%80%e4%b8%aa%e9%9d%9e%e5%b8%b8%e7%ae%80%e5%8d%95%e7%9a%84%e4%be%8b%e5%ad%90)
-    - [练习白板编程](#%e7%bb%83%e4%b9%a0%e7%99%bd%e6%9d%bf%e7%bc%96%e7%a8%8b)
-    - [问清题目](#%e9%97%ae%e6%b8%85%e9%a2%98%e7%9b%ae)
-    - [与面试官确认函数签名](#%e4%b8%8e%e9%9d%a2%e8%af%95%e5%ae%98%e7%a1%ae%e8%ae%a4%e5%87%bd%e6%95%b0%e7%ad%be%e5%90%8d)
-    - [设计简单的测试样例](#%e8%ae%be%e8%ae%a1%e7%ae%80%e5%8d%95%e7%9a%84%e6%b5%8b%e8%af%95%e6%a0%b7%e4%be%8b)
-    - [与面试官确认思路](#%e4%b8%8e%e9%9d%a2%e8%af%95%e5%ae%98%e7%a1%ae%e8%ae%a4%e6%80%9d%e8%b7%af)
-    - [抓住面试官给的提示](#%e6%8a%93%e4%bd%8f%e9%9d%a2%e8%af%95%e5%ae%98%e7%bb%99%e7%9a%84%e6%8f%90%e7%a4%ba)
-    - [确认边界处理](#%e7%a1%ae%e8%ae%a4%e8%be%b9%e7%95%8c%e5%a4%84%e7%90%86)
-    - [代码中使用可读性高的变量名和函数名](#%e4%bb%a3%e7%a0%81%e4%b8%ad%e4%bd%bf%e7%94%a8%e5%8f%af%e8%af%bb%e6%80%a7%e9%ab%98%e7%9a%84%e5%8f%98%e9%87%8f%e5%90%8d%e5%92%8c%e5%87%bd%e6%95%b0%e5%90%8d)
-    - [写代码过程中保持与面试官交流](#%e5%86%99%e4%bb%a3%e7%a0%81%e8%bf%87%e7%a8%8b%e4%b8%ad%e4%bf%9d%e6%8c%81%e4%b8%8e%e9%9d%a2%e8%af%95%e5%ae%98%e4%ba%a4%e6%b5%81)
-    - [写完代码后主动测试](#%e5%86%99%e5%ae%8c%e4%bb%a3%e7%a0%81%e5%90%8e%e4%b8%bb%e5%8a%a8%e6%b5%8b%e8%af%95)
-    - [主动给出算法的复杂度](#%e4%b8%bb%e5%8a%a8%e7%bb%99%e5%87%ba%e7%ae%97%e6%b3%95%e7%9a%84%e5%a4%8d%e6%9d%82%e5%ba%a6)
-    - [讨论算法的trade-off](#%e8%ae%a8%e8%ae%ba%e7%ae%97%e6%b3%95%e7%9a%84trade-off)
-  - [计算机基础部分心得](#%e8%ae%a1%e7%ae%97%e6%9c%ba%e5%9f%ba%e7%a1%80%e9%83%a8%e5%88%86%e5%bf%83%e5%be%97)
-    - [面经的使用](#%e9%9d%a2%e7%bb%8f%e7%9a%84%e4%bd%bf%e7%94%a8)
-    - [抓住面试官想问的点](#%e6%8a%93%e4%bd%8f%e9%9d%a2%e8%af%95%e5%ae%98%e6%83%b3%e9%97%ae%e7%9a%84%e7%82%b9)
-    - [说出自己的insight](#%e8%af%b4%e5%87%ba%e8%87%aa%e5%b7%b1%e7%9a%84insight)
-    - [结合自己的使用经验阐述](#%e7%bb%93%e5%90%88%e8%87%aa%e5%b7%b1%e7%9a%84%e4%bd%bf%e7%94%a8%e7%bb%8f%e9%aa%8c%e9%98%90%e8%bf%b0)
-  - [项目部分心得](#%e9%a1%b9%e7%9b%ae%e9%83%a8%e5%88%86%e5%bf%83%e5%be%97)
-    - [简要介绍项目背景](#%e7%ae%80%e8%a6%81%e4%bb%8b%e7%bb%8d%e9%a1%b9%e7%9b%ae%e8%83%8c%e6%99%af)
-    - [介绍项目的approach](#%e4%bb%8b%e7%bb%8d%e9%a1%b9%e7%9b%ae%e7%9a%84approach)
-    - [指出项目中的困难点和解决方案](#%e6%8c%87%e5%87%ba%e9%a1%b9%e7%9b%ae%e4%b8%ad%e7%9a%84%e5%9b%b0%e9%9a%be%e7%82%b9%e5%92%8c%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88)
-  - [论文部分心得](#%e8%ae%ba%e6%96%87%e9%83%a8%e5%88%86%e5%bf%83%e5%be%97)
-    - [简要介绍自己research的背景](#%e7%ae%80%e8%a6%81%e4%bb%8b%e7%bb%8d%e8%87%aa%e5%b7%b1research%e7%9a%84%e8%83%8c%e6%99%af)
-    - [像做talk一样介绍一遍自己的论文](#%e5%83%8f%e5%81%9atalk%e4%b8%80%e6%a0%b7%e4%bb%8b%e7%bb%8d%e4%b8%80%e9%81%8d%e8%87%aa%e5%b7%b1%e7%9a%84%e8%ae%ba%e6%96%87)
-  - [模拟面试](#%e6%a8%a1%e6%8b%9f%e9%9d%a2%e8%af%95)
-  - [面试大忌](#%e9%9d%a2%e8%af%95%e5%a4%a7%e5%bf%8c)
-    - [不懂装懂](#%e4%b8%8d%e6%87%82%e8%a3%85%e6%87%82)
-    - [狂傲不羁](#%e7%8b%82%e5%82%b2%e4%b8%8d%e7%be%81)
-    - [远远达不到面试官对自己的期望](#%e8%bf%9c%e8%bf%9c%e8%be%be%e4%b8%8d%e5%88%b0%e9%9d%a2%e8%af%95%e5%ae%98%e5%af%b9%e8%87%aa%e5%b7%b1%e7%9a%84%e6%9c%9f%e6%9c%9b)
-  - [心态](#%e5%bf%83%e6%80%81)
-  - [最后](#%e6%9c%80%e5%90%8e)
-- [番外篇：找工作的流水账与心路历程](#%e7%95%aa%e5%a4%96%e7%af%87%e6%89%be%e5%b7%a5%e4%bd%9c%e7%9a%84%e6%b5%81%e6%b0%b4%e8%b4%a6%e4%b8%8e%e5%bf%83%e8%b7%af%e5%8e%86%e7%a8%8b)
-  - [背景介绍与CS学习历程](#%e8%83%8c%e6%99%af%e4%bb%8b%e7%bb%8d%e4%b8%8ecs%e5%ad%a6%e4%b9%a0%e5%8e%86%e7%a8%8b)
-    - [我总结的学习方式](#%e6%88%91%e6%80%bb%e7%bb%93%e7%9a%84%e5%ad%a6%e4%b9%a0%e6%96%b9%e5%bc%8f)
-    - [CS学习历程](#cs%e5%ad%a6%e4%b9%a0%e5%8e%86%e7%a8%8b)
-  - [找工作之前的准备](#%e6%89%be%e5%b7%a5%e4%bd%9c%e4%b9%8b%e5%89%8d%e7%9a%84%e5%87%86%e5%a4%87)
-    - [刷题](#%e5%88%b7%e9%a2%98)
-    - [面经与面试技巧](#%e9%9d%a2%e7%bb%8f%e4%b8%8e%e9%9d%a2%e8%af%95%e6%8a%80%e5%b7%a7)
-    - [模拟面试](#%e6%a8%a1%e6%8b%9f%e9%9d%a2%e8%af%95-1)
-    - [日常实习](#%e6%97%a5%e5%b8%b8%e5%ae%9e%e4%b9%a0)
-    - [做research](#%e5%81%9aresearch)
-  - [找实习](#%e6%89%be%e5%ae%9e%e4%b9%a0)
+- [面试心得](#面试心得)
+  - [声明](#声明)
+  - [编程部分心得](#编程部分心得)
+    - [一个非常简单的例子](#一个非常简单的例子)
+    - [练习白板编程](#练习白板编程)
+    - [问清题目](#问清题目)
+    - [与面试官确认函数签名](#与面试官确认函数签名)
+    - [设计简单的测试样例](#设计简单的测试样例)
+    - [与面试官确认思路](#与面试官确认思路)
+    - [抓住面试官给的提示](#抓住面试官给的提示)
+    - [确认边界处理](#确认边界处理)
+    - [代码中使用可读性高的变量名和函数名](#代码中使用可读性高的变量名和函数名)
+    - [写代码过程中保持与面试官交流](#写代码过程中保持与面试官交流)
+    - [写完代码后主动测试](#写完代码后主动测试)
+    - [主动给出算法的复杂度](#主动给出算法的复杂度)
+    - [讨论算法的trade-off](#讨论算法的trade-off)
+  - [计算机基础部分心得](#计算机基础部分心得)
+    - [面经的使用](#面经的使用)
+    - [抓住面试官想问的点](#抓住面试官想问的点)
+    - [说出自己的insight](#说出自己的insight)
+    - [结合自己的使用经验阐述](#结合自己的使用经验阐述)
+  - [项目部分心得](#项目部分心得)
+    - [简要介绍项目背景](#简要介绍项目背景)
+    - [介绍项目的approach](#介绍项目的approach)
+    - [指出项目中的困难点和解决方案](#指出项目中的困难点和解决方案)
+  - [论文部分心得](#论文部分心得)
+    - [简要介绍自己research的背景](#简要介绍自己research的背景)
+    - [像做talk一样介绍一遍自己的论文](#像做talk一样介绍一遍自己的论文)
+  - [模拟面试](#模拟面试)
+  - [面试大忌](#面试大忌)
+    - [不懂装懂](#不懂装懂)
+    - [狂傲不羁](#狂傲不羁)
+    - [远远达不到面试官对自己的期望](#远远达不到面试官对自己的期望)
+  - [心态](#心态)
+  - [最后](#最后)
+- [番外篇：找工作的流水账与心路历程](#番外篇找工作的流水账与心路历程)
+  - [背景介绍与CS学习历程](#背景介绍与cs学习历程)
+    - [我总结的学习方式](#我总结的学习方式)
+    - [CS学习历程](#cs学习历程)
+  - [找工作之前的准备](#找工作之前的准备)
+    - [刷题](#刷题)
+    - [面经与面试技巧](#面经与面试技巧)
+    - [模拟面试](#模拟面试-1)
+    - [日常实习](#日常实习)
+    - [做research](#做research)
+  - [找实习](#找实习)
     - [Google](#google)
-    - [拼多多](#%e6%8b%bc%e5%a4%9a%e5%a4%9a)
-    - [摩根士丹利](#%e6%91%a9%e6%a0%b9%e5%a3%ab%e4%b8%b9%e5%88%a9)
-    - [头条](#%e5%a4%b4%e6%9d%a1)
-    - [阿里](#%e9%98%bf%e9%87%8c)
-    - [腾讯](#%e8%85%be%e8%ae%af)
-    - [微软](#%e5%be%ae%e8%bd%af)
+    - [拼多多](#拼多多)
+    - [摩根士丹利](#摩根士丹利)
+    - [头条](#头条)
+    - [阿里](#阿里)
+    - [腾讯](#腾讯)
+    - [微软](#微软)
     - [Optiver](#optiver)
-    - [百度](#%e7%99%be%e5%ba%a6)
+    - [百度](#百度)
     - [Airbnb](#airbnb)
     - [Hulu](#hulu)
-  - [实习经历](#%e5%ae%9e%e4%b9%a0%e7%bb%8f%e5%8e%86)
-    - [入职](#%e5%85%a5%e8%81%8c)
-    - [项目初期进展](#%e9%a1%b9%e7%9b%ae%e5%88%9d%e6%9c%9f%e8%bf%9b%e5%b1%95)
-    - [进抢救室](#%e8%bf%9b%e6%8a%a2%e6%95%91%e5%ae%a4)
-    - [恢复实习](#%e6%81%a2%e5%a4%8d%e5%ae%9e%e4%b9%a0)
-    - [总结](#%e6%80%bb%e7%bb%93)
-  - [秋招](#%e7%a7%8b%e6%8b%9b)
-    - [百度](#%e7%99%be%e5%ba%a6-1)
-    - [腾讯WXG](#%e8%85%be%e8%ae%afwxg)
-    - [阿里](#%e9%98%bf%e9%87%8c-1)
+  - [实习经历](#实习经历)
+    - [入职](#入职)
+    - [项目初期进展](#项目初期进展)
+    - [进抢救室](#进抢救室)
+    - [恢复实习](#恢复实习)
+    - [总结](#总结)
+  - [秋招](#秋招)
+    - [百度](#百度-1)
+    - [腾讯WXG](#腾讯wxg)
+    - [阿里](#阿里-1)
     - [Optiver](#optiver-1)
-    - [腾讯数据库内核](#%e8%85%be%e8%ae%af%e6%95%b0%e6%8d%ae%e5%ba%93%e5%86%85%e6%a0%b8)
+    - [腾讯数据库内核](#腾讯数据库内核)
     - [Google](#google-1)
-    - [Offer选择](#offer%e9%80%89%e6%8b%a9)
-  - [一些学习资料推荐](#%e4%b8%80%e4%ba%9b%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%96%99%e6%8e%a8%e8%8d%90)
-    - [数学](#%e6%95%b0%e5%ad%a6)
-    - [CS导论](#cs%e5%af%bc%e8%ae%ba)
-    - [数据结构与算法](#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e4%b8%8e%e7%ae%97%e6%b3%95)
-    - [操作系统](#%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f)
-    - [编程语言](#%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80)
-    - [机器学习](#%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0)
-    - [深度学习](#%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0)
-  - [尾声](#%e5%b0%be%e5%a3%b0)
+    - [Offer选择](#offer选择)
+  - [一些学习资料推荐](#一些学习资料推荐)
+    - [数学](#数学)
+    - [CS导论](#cs导论)
+    - [CS实用课程](#cs实用课程)
+    - [数据结构与算法](#数据结构与算法)
+    - [操作系统](#操作系统)
+    - [组成原理/体系结构](#组成原理体系结构)
+    - [计算机网络](#计算机网络)
+    - [编程语言](#编程语言)
+    - [软件工程](#软件工程)
+    - [机器学习](#机器学习)
+    - [深度学习](#深度学习)
+  - [尾声](#尾声)
+
 # 面试心得
 
 2019年春招和秋招，我在中国进行了多场面试，其目的是找一个暑期实习职位和找秋招的正式工作。这是我的个人心得总结。
@@ -597,7 +600,7 @@ Google的转正面试在中秋节结束后的第一天。很遗憾我在去上�
 
 ## 一些学习资料推荐
 
-这里简单推荐一些我看过的（有些看完了，有些看了部分）适合自学的学习资料，以供参考。因为我太懒了，所以覆盖的内容不全面，自学CS的同学也可以参考[MIT的课表](http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/)看看要学哪些内容。再次强调，**上课不做题，等于白上课。**
+这里简单推荐一些我看过的（有些看完了，有些看了部分）适合自学的学习资料，以供参考。因为我太懒了，所以覆盖的内容不全面，自学CS的同学也可以参考[MIT的课表](http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/)看看要学哪些内容。我个人推荐学习从一门导论课程开始，然后是6.null，然后是Berkeley的CS61系列。之后学习算法课程、操作系统课程、组成原理/体系结构课程与计算机网络课程。再之后，我相信各位已有足够的判断力选择自己感兴趣或者是需要学习的课程了。再次强调，**上课不做题，等于白上课。**
 
 ### 数学
 
@@ -613,33 +616,65 @@ Google的转正面试在中秋节结束后的第一天。很遗憾我在去上�
 
 [MIT 6.001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)：Introduction to Computer Science and Programming in Python
 
+[Harvard CS50](https://cs50.harvard.edu/x/2020/): This is CS50!一门很好的导论课程，覆盖的范围非常之广，且内容与MIT的导论课程颇为互补。
+
+### CS实用课程
+[MIT 6.null](https://missing.csail.mit.edu/): CS实用工具集合介绍。强烈推荐早点看这门课，非常实用。[这里](https://zhuanlan.zhihu.com/p/139361685)有我之前写的一篇简介文章。
+
 ### 数据结构与算法
 
-[MIT 6.006](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)：Introduction to Algorithms，教材是CLRS。
+[MIT 6.006](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/): Introduction to Algorithms，教材是CLRS。
 
-[MIT 6.046](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)：Design and Analysis of Algorithms. 进阶版，但其实前面那门课就已经内容不少了。
+[Berkeley CS61系列](https://cs61a.org/): 其实我没上过这门课，因为当年入门CS的时候这门课似乎还没录像？现在有公开的录像了，而且口碑也非常好。
+
+[MIT 6.046](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/): Design and Analysis of Algorithms. 进阶版，但其实前面6.006就已经内容不少了。
+
+Stanford也有几门有点老但是也非常好的相关课程。不过我觉得上面这些课程内容更新，质量也不逊色，各位就看自己喜好来挑选吧。
 
 算法笔记：胡凡著。一位浙大学长写的使用c++实现基础数据结构与算法的书，写得挺清晰的，里面的代码也很实用。我现在面试之前还会翻一下这本书上一些算法的实现。
 
 ### 操作系统
 
-[CMU 15-213](https://www.cs.cmu.edu/~213/)：教材是CSAPP。
+[CMU 15-213](https://www.cs.cmu.edu/~213/): 教材是CSAPP。
 
-[MIT 6.824](https://pdos.csail.mit.edu/6.824/)：分布式系统。不久前终于感人地放出视频了。
+[MIT 6.824](https://pdos.csail.mit.edu/6.824/): 分布式系统。不久前终于感人地放出视频了。
 
 [MIT 6.828](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)：其实还没看，小伙伴都说好。
 
-[MIT 6.004](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/)：Computer Structure。偏硬件，老师讲得很好。
-
 Modern Operating System
 
+### 组成原理/体系结构
+
+[CMU 15-213](https://www.cs.cmu.edu/~213/)：教材是CSAPP。
+
+[MIT 6.004](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/)：Computer Structure. 偏硬件，老师讲得很好。
+
+MHRD: From NAND to CPU. Steam上一款有趣的小游戏，从NAND开始搭建各种逻辑电路，最后制作出一款简易的CPU。[这里](https://zhuanlan.zhihu.com/p/148077075)有我之前写的一篇简介文章。
+
+[CMU Computer Architecture](https://safari.ethz.ch/architecture/fall2019/doku.php): 无论是在CMU还是ETH，Onur每年都会将这门课的录像和课程资源都公开，这是怎样的一种情怀Orz 19年的录像中Slide不是很清晰，可以自己使用双屏配合一下；或者观看18年的录像。
+
+Computer Architecture: a Quantitative Approach
+
+### 计算机网络
+[Stanford CS144](https://cs144.github.io/): 这门课多年前有一个mooc版本，后来不知道为啥被撤了，但是授课视频还是流传了出来。我个人不是很适应这门课的授课视频，看的有点犯困，但是课程的Lab还是出得很好的。
+
+Computer Network: a Top Down Approach
+
 ### 编程语言
+
+[Berkeley CS61系列](https://cs61a.org/): 系列的几门课使用的是不同的语言，也都有很不错的配套作业，又基本都有视频公开，因此蛮推荐使用这个系列的课程来学编程语言的。
 
 [Stanford CS41](https://stanfordpython.com/): Python Language Programming. 可惜没有视频，作业挺有意思的。其实我觉得学语言比较好的一种方式就是学了语法之后做一些练手的项目、作业，这样会掌握得比较快。
 
 [Stanford CS106L](http://web.stanford.edu/class/cs106l/): C++ Language Programming. 前文也介绍过了，我觉得那本Full Course Reader写得真的很好，推荐一下~
 
 还有一些领域内很知名的书，这里就不再专门推荐啦，这些课程里也会有介绍/推荐。这里再啰嗦一句，对大多数人来说，往往只需要学会某种编程语言中20%不到的常用特性，而这20%的常用特性往往占了实际使用这门编程语言中的90%。所以我不是很建议一开始弄本厚厚大大的书看，那样又吃力又缺少反馈，而且可能会花大量精力在自己根本用不到的地方。我其他的编程语言似乎都是用官方tutorial入门的，这里也就不推荐啦。
+
+### 软件工程
+
+[MIT 6.031](http://web.mit.edu/6.031/www/sp20/): Software Construction. 算是介绍软件工程的一些知识吧，包括如何写出更鲁棒的代码等等。有很好的在线阅读资料，但可惜没有公开的视频。
+
+[MIT 6.172](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/index.htm): Performance Engineering of Software Systems. 讲的是如何优化程序的性能，非常有趣的一门课。
 
 ### 机器学习
 
