@@ -652,6 +652,8 @@ Stanford也有几门有点老但是也非常好的相关课程。不过我觉得
 
 [CMU 15-213](https://www.cs.cmu.edu/~213/): 教材是CSAPP。
 
+[Berkeley CS162](https://cs162.eecs.berkeley.edu/)：youtube和B站上都有2019Spring的视频。professor上课上得很好，hw和lab也都很给力。美中不足的是hw的autograder没有开放出来，但好在lab有提供test case。
+
 [MIT 6.824](https://pdos.csail.mit.edu/6.824/): 分布式系统。不久前终于感人地放出视频了。
 
 [MIT 6.828](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)：其实还没看，小伙伴都说好。
