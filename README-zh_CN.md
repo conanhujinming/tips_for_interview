@@ -656,7 +656,7 @@ Stanford也有几门有点老但是也非常好的相关课程。不过我觉得
 
 [MIT 6.824](https://pdos.csail.mit.edu/6.824/): 分布式系统。不久前终于感人地放出视频了。
 
-[MIT 6.828](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2012/)：其实还没看，小伙伴都说好。
+[MIT 6.S081/6.828](https://pdos.csail.mit.edu/6.828/2020/tools.html)：2020也放出视频啦~
 
 Modern Operating System
 
